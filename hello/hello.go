@@ -1,10 +1,10 @@
 package main
 
-import "fmt"
+import (
+		"fmt"
+		"github.com/dcproduct/example/stringutil"
+	)
 
 func main()  {
-	fmt.Printf("Hello, world2!\n")
-	fmt.Printf("Hello, py!\n")
-
-	fmt.Printf("Hello, kkk!\n")
+	fmt.Printf(stringutil.Reverse("!oG, olleH") + "\n")
 }
