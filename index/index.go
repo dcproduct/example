@@ -13,6 +13,8 @@ func main()  {
 
 	tour.Ncnst()
 
+	
+
 	tour.Fo()
 
 	tour.FoExt()
